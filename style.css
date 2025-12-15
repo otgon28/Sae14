@@ -43,6 +43,10 @@ h1 {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
 }
 
+.second-title {
+    margin-top: 80px;
+}
+
 .hero {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 40px;
@@ -75,6 +79,33 @@ h1 {
     color: #ff0000;
     margin-bottom: 15px;
     font-size: 24px;
+}
+
+.section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #ff0000;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.section p, .section ul {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.section ul {
+    list-style-position: inside;
+    margin-top: 15px;
+}
+
+.section li {
+    margin-bottom: 10px;
 }
 
 footer {
