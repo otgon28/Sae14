@@ -10,6 +10,11 @@ body {
     color: white;
     min-height: 100vh;
 }
+ 
+
+input[type="radio"] {
+    display: none;
+}
 
 nav {
     background-color: rgba(0, 0, 0, 0.8);
@@ -17,16 +22,17 @@ nav {
     text-align: center;
 }
 
-nav a {
+nav label {
     color: #ff0000;
     text-decoration: none;
     margin: 0 20px;
     font-size: 18px;
     font-weight: bold;
     transition: color 0.3s;
+    cursor: pointer;
 }
 
-nav a:hover {
+nav label:hover {
     color: #ffffff;
 }
 
@@ -41,10 +47,6 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
-}
-
-.second-title {
-    margin-top: 80px;
 }
 
 .hero {
@@ -106,6 +108,22 @@ h1 {
 
 .section li {
     margin-bottom: 10px;
+}
+
+.page {
+    display: none;
+}
+
+#radio-accueil:checked ~ #accueil,
+#radio-univers:checked ~ #univers,
+#radio-apropos:checked ~ #apropos {
+    display: block;
+}
+
+#radio-accueil:checked ~ nav label[for="radio-accueil"],
+#radio-univers:checked ~ nav label[for="radio-univers"],
+#radio-apropos:checked ~ nav label[for="radio-apropos"] {
+    color: white;
 }
 
 footer {

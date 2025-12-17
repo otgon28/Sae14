@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spider-Man - Accueil</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <input type="radio" id="radio-accueil" name="page" checked>
+    <input type="radio" id="radio-univers" name="page">
+    <input type="radio" id="radio-apropos" name="page">
+
     <nav>
-        <a href="#">Accueil</a>
-        <a href="#">L'Univers</a>
-        <a href="#">À propos</a>
+        <label for="radio-accueil">Accueil</label>
+        <label for="radio-univers">L'Univers</label>
+        <label for="radio-apropos">À propos</label>
     </nav>
 
-    <div class="container">
-        <h1>🕷️ SPIDER-MAN 🕷️</h1>
-        <div class="hero">
-            <p>Bienvenue dans l'univers de Spider-Man !</p>
+    <div id="accueil" class="page">
+        <div class="container">
+            <h1>🕷️ SPIDER-MAN 🕷️</h1>
+            <div class="hero">
+                <p>Bienvenue dans l'univers de Spider-Man !</p>
             <p>Spider-Man est un super-héros emblématique de Marvel,
                 connu pour son courage, son sens des responsabilités
                 et son attachement à la ville de New York.</p>
-        </div>
+            </div>
 
-        <div class="cards">
-            <div class="card">
-                <h3>🎬 Films</h3>
-                <p>Découvre tous les films Spider-Man, du classique au multivers !</p>
-            </div>
-            <div class="card">
-                <h3>🌐 Multivers</h3>
-                <p>Explore les différentes versions de Spider-Man à travers les dimensions.</p>
-            </div>
-            <div class="card">
-                <h3>💪 Pouvoirs</h3>
-                <p>Force surhumaine, agilité, sens d'araignée et toiles !</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>🎬 Films</h3>
+                    <p>Découvre tous les films Spider-Man, du classique au multivers !</p>
+                </div>
+                <div class="card">
+                    <h3>🌐 Multivers</h3>
+                    <p>Explore les différentes versions de Spider-Man à travers les dimensions.</p>
+                </div>
+                <div class="card">
+                    <h3>💪 Pouvoirs</h3>
+                    <p>Force surhumaine, agilité, sens d'araignée et toiles !</p>
+                </div>
             </div>
         </div>
+    </div>
 
-        <h1 class="second-title">L'UNIVERS SPIDER-MAN</h1>
+    <div id="univers" class="page">
+        <div class="container">
+            <h1>L'UNIVERS SPIDER-MAN</h1>
 
 
         <div class="section">
@@ -71,45 +78,45 @@
                 </p>
             </div>
         </div>
-        <div class="section">
-            <h2>🎬 Les Films</h2>
-            <p>Spider-Man a eu plusieurs trilogies et a connu plusieurs adaptations au cinéma,
+            <div class="section">
+                <h2>🎬 Les Films</h2>
+                <p>Spider-Man a eu plusieurs trilogies et a connu plusieurs adaptations au cinéma,
                 avec différentes versions du personnage interprétées
                 par plusieurs acteurs:</p>
-            <ul>
-                <li><strong>Trilogie Raimi (2002-2007)</strong> - Tobey Maguire incarne le premier Spider-Man moderne
-                </li>
-                <li><strong>The Amazing Spider-Man (2012-2014)</strong> - Andrew Garfield reprend le rôle</li>
-                <li><strong>MCU (2016-présent)</strong> - Tom Holland rejoint l'univers Marvel</li>
-                <li><strong>Spider-Verse (2018-2023)</strong> - Films d'animation avec Miles Morales</li>
-            </ul>
-        </div>
+                <ul>
+                    <li><strong>Trilogie Raimi (2002-2007)</strong> - Tobey Maguire incarne le premier Spider-Man moderne</li>
+                    <li><strong>The Amazing Spider-Man (2012-2014)</strong> - Andrew Garfield reprend le rôle</li>
+                    <li><strong>MCU (2016-présent)</strong> - Tom Holland rejoint l'univers Marvel</li>
+                    <li><strong>Spider-Verse (2018-2023)</strong> - Films d'animation avec Miles Morales</li>
+                </ul>
+            </div>
 
-        <div class="section">
-            <h2>🌐 Le Multivers</h2>
-            <p>Le multivers Spider-Man est immense, il introduit l’idée que plusieurs versions
+            <div class="section">
+                <h2>🌐 Le Multivers</h2>
+                <p>Le multivers Spider-Man est immense, il introduit l’idée que plusieurs versions
                 de Spider-Man existent dans des univers parallèles. Il existe plusieurs versions :</p>
-            <ul>
-                <li><strong>Peter Parker</strong> - Le Spider-Man original (Terre-616)</li>
-                <li><strong>Miles Morales</strong> - Le nouveau Spider-Man de Brooklyn</li>
-                <li><strong>Gwen Stacy</strong> - Spider-Gwen / Ghost-Spider</li>
-                <li><strong>Spider-Man 2099</strong> - Miguel O'Hara du futur</li>
-                <li><strong>Spider-Noir</strong> - Version années 1930 en noir et blanc</li>
-                <li><strong>Peter Porker</strong> - Spider-Ham, le cochon araignée !</li>
-            </ul>
-        </div>
+                <ul>
+                    <li><strong>Peter Parker</strong> - Le Spider-Man original (Terre-616)</li>
+                    <li><strong>Miles Morales</strong> - Le nouveau Spider-Man de Brooklyn</li>
+                    <li><strong>Gwen Stacy</strong> - Spider-Gwen / Ghost-Spider</li>
+                    <li><strong>Spider-Man 2099</strong> - Miguel O'Hara du futur</li>
+                    <li><strong>Spider-Noir</strong> - Version années 1930 en noir et blanc</li>
+                    <li><strong>Peter Porker</strong> - Spider-Ham, le cochon araignée !</li>
+                </ul>
+            </div>
 
-        <div class="section">
-            <h2>🦹 Les Méchants</h2>
-            <p>Spider-Man affronte des ennemis redoutables :</p>
-            <ul>
-                <li>Le Bouffon Vert (Green Goblin)</li>
-                <li>Docteur Octopus</li>
-                <li>Venom</li>
-                <li>Electro</li>
-                <li>Le Lézard</li>
-                <li>Sandman</li>
-            </ul>
+            <div class="section">
+                <h2>🦹 Les Méchants</h2>
+                <p>Spider-Man affronte des ennemis redoutables :</p>
+                <ul>
+                    <li>Le Bouffon Vert (Green Goblin)</li>
+                    <li>Docteur Octopus</li>
+                    <li>Venom</li>
+                    <li>Electro</li>
+                    <li>Le Lézard</li>
+                    <li>Sandman</li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -117,5 +124,4 @@
         <p>© 2025 Spider-Man Fan Site - Avec un grand pouvoir vient une grande responsabilité</p>
     </footer>
 </body>
-
 </html>
