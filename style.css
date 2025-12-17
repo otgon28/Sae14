@@ -10,7 +10,6 @@ body {
     color: white;
     min-height: 100vh;
 }
- 
 
 input[type="radio"] {
     display: none;
@@ -75,6 +74,11 @@ h1 {
     padding: 30px;
     border-radius: 10px;
     text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
 
 .card h3 {
