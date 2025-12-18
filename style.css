@@ -114,16 +114,19 @@ h1 {
     margin-bottom: 10px;
 }
 
+/* Par défaut, toutes les pages sont cachées */
 .page {
     display: none;
 }
 
+/* Affiche la page correspondante quand son radio est coché */
 #radio-accueil:checked ~ #accueil,
 #radio-univers:checked ~ #univers,
 #radio-apropos:checked ~ #apropos {
     display: block;
 }
 
+/* Met en blanc le lien de la page active */
 #radio-accueil:checked ~ nav label[for="radio-accueil"],
 #radio-univers:checked ~ nav label[for="radio-univers"],
 #radio-apropos:checked ~ nav label[for="radio-apropos"] {
