@@ -1,31 +1,27 @@
-SAÉ14 – Site Web multipages
- Présentation
+# 🌐 Projet SAÉ14 – Site Web multipages
 
-Ce projet a été réalisé dans le cadre de la SAÉ14.
-Il s’agit d’un site web multipages développé en HTML et CSS, autour d’un thème libre.
+## 📌 Présentation
 
-Le site contient :
+Ce projet a été réalisé dans le cadre de la **SAÉ14**.
+Il s’agit d’un **site Web multipages en HTML et CSS** sur le thème de Spider-Man.
+Le site comporte :
 
-une page d’accueil
+* une **page d’accueil** présentant le thème du site,
+* une **page de contenu** dédiée au sujet principal,
+* une **page à propos** .
 
-une page dédiée au sujet
+## 🛠️ Technologies utilisées
 
-une page à propos présentant l’auteur
+* HTML5
+* CSS3
+* Animations CSS
 
- Technologies utilisées
+## 📱 Fonctionnalités
 
-HTML5
+* Design responsive (ordinateur, tablette, mobile)
+* Charte graphique cohérente
 
-CSS3 (Flexbox et/ou Grid)
+##  Hébergement
 
- Fonctionnalités
+Lien du site : 
 
-Design responsive (ordinateur, tablette, mobile)
-
-Charte graphique cohérente
-
-Animations CSS
-
-Code conforme aux standards W3C et à l’accessibilité WCAG 2.0 AA
-
- Lien du site 
